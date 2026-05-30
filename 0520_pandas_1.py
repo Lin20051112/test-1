@@ -13,5 +13,4 @@ print("stock3\n",stock3)
 print("Banana庫存",stock2["Banana"])
 print("缺失檢查",stock2.isna())
 print("缺失數量",stock2.isna().sum())
-
 stock2.to_csv('0520_stock.csv',index=False)
